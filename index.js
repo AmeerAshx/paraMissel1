@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('Va a ver que no se va a arrepentir')
+    alert('Gracias :3, usted no se va a arrepentir de esta decision')
 });
 
 const noBtn = document.querySelector('#noBtn');
