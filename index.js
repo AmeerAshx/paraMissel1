@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('Gracias :3, usted no se va a arrepentir de esta decision')
+    alert('Gracias :3,  tratare de que no te arrepientas de esta decision')
 });
 
 const noBtn = document.querySelector('#noBtn');
@@ -12,4 +12,5 @@ noBtn.addEventListener('mouseover', function () {
     noBtn.style.setProperty('top',randomY+'%');
     noBtn.style.setProperty('left',randomX+'%');
     noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
+
 })
